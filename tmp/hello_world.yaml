@@ -4,10 +4,6 @@
     - name: Hello Message
       debug:
         msg: "Hello World!"
-
-- name: Hello World Sample 2
-  hosts: all
-  tasks:
     - name: Hello Message 2
       debug:
         msg: "Hello World 2!"
